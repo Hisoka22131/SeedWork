@@ -9,17 +9,18 @@ public class Manager
 
     private Manager(){ }
     
-    public OperationResult<Manager> Create(string email, string password)
+    public static OperationResult<Manager> Create(string email, string password)
     {
         var validateResult = Validate(email, password);
         if (!validateResult.Ok) return validateResult;
-        
-        Email = email;
-        Password = password;
-        
+                
         return new OperationResult<Manager>
         {
-            Result = this
+            Result = new Manager        
+            {
+                Email = email,
+                Password = password
+            }
         };
     }
     
