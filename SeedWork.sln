@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedWork.Notifications", "SeedWork.Notifications\SeedWork.Notifications.csproj", "{D710A193-8D49-4B20-8D01-F5A327AFCAD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedWork.IoC", "SeedWork.IoC\SeedWork.IoC.csproj", "{4E1C9E8F-30D8-4489-BB44-3A013BD088F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{D710A193-8D49-4B20-8D01-F5A327AFCAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D710A193-8D49-4B20-8D01-F5A327AFCAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D710A193-8D49-4B20-8D01-F5A327AFCAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1C9E8F-30D8-4489-BB44-3A013BD088F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1C9E8F-30D8-4489-BB44-3A013BD088F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1C9E8F-30D8-4489-BB44-3A013BD088F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1C9E8F-30D8-4489-BB44-3A013BD088F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

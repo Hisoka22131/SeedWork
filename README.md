@@ -21,7 +21,7 @@ public class Manager
                 Email = email,
                 Password = password
             }
-        };
+        }; 
     }
     
     private static EmptyOperationResult Validate(string email, string password)
